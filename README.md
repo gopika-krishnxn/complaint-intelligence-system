@@ -68,21 +68,38 @@ The model uses the **Consumer complaint narrative** column as the input text and
 
 The dataset contains **16,428 complaints** used for this project.
 
-## Dataset
+## Technologies Used
 
-The project uses consumer complaint data published by the **Consumer Financial Protection Bureau (CFPB)**.
+### Programming Language
 
-The dataset contains consumer complaint narratives along with information about the financial products associated with those complaints.
+* Python
 
-For this project, the following three product categories are used:
+### Machine Learning & NLP
 
-* Credit Card
-* Credit Reporting or Other Personal Consumer Reports
-* Student Loan
+* Scikit-learn
+* TF-IDF
+* Linear Support Vector Machine (LinearSVC)
 
-The model uses the **Consumer complaint narrative** column as the input text and the **Product** column as the target variable.
+### Data Processing
 
-The dataset contains **16,428 complaints** used for this project.
+* Pandas
+* NumPy
+
+### Visualization
+
+* Matplotlib
+* Seaborn
+
+### Application & Model Management
+
+* Streamlit
+* Joblib
+
+### Development Tools
+
+* Cursor
+* Git
+* GitHub
 
 ## Model Performance
 
@@ -103,7 +120,7 @@ The project also includes a confusion matrix to visualize the model's classifica
 complaint-intelligence-system/
 │
 ├── data/
-│   └── complaints-2025-01-03_07_55.csv
+│   └── complaints-2025-01-03_07_55.csv   # Local dataset, not uploaded to GitHub
 │
 ├── pages/
 │   ├── 1_Dashboard.py
