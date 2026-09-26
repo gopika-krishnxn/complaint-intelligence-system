@@ -164,7 +164,7 @@ pip install pandas numpy scikit-learn joblib matplotlib seaborn streamlit
 ### 3. Run the Streamlit Application
 
 ```bash
-python -m streamlit run app.py
+python -m streamlit run streamlit_app.py
 ```
 
 The application will open in your browser.
